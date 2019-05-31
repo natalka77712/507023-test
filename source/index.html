@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Тестовое задание Flocktory</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body>
+<main class="page-main">
+  <form class="form" method="post" action="https://echo.htmlacademy.ru">
+    <h1 class="form__title">Ваш заказ <span>№1890998</span> принят и находится в обработке</h1>
+    <button type="button" class="form__toggle" aria-label="Открыть меню"></button>
+    <h2 class="form__customer">Михаил Иванович!</h2>
+    <span class="form__discount">10%</span>
+    <p class="form_promo">подарите друзьям скидку в «CompanyName» и получите скидку в подарок, за каждого друга</p>
+    <ul class="form__social social">
+      <li class="social__item">
+        <a class="social__link social__link--odn" href="#" aria-label="odnoklassniki">
+          <svg></svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--fb" href="#" aria-label="facebook">
+          <svg></svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link --tw" href="#" aria-label="twitter">
+          <svg></svg>
+        </a>
+      </li>
+      <li class="social__item ">
+        <a class="social__link social__link--vk" href="#" aria-label="vkontakte">
+          <svg></svg>
+        </a>
+      </li>
+    </ul>
+    <textarea class="form__textarea" name="e-mail" placeholder="E-mail друзей"></textarea>
+    <textarea class="form__textarea-second" name="assortment" placeholder="Хороший ассортимент и цены в %site_name%. Только что после покупки подарили скидку
+    %friend_reward% для моих друзей!Времени мало, Вперёд!"></textarea>
+    <button class="form__btn-submit btn" type="submit">Отправить</button>
+    <div class="form__more">
+      <a href="#" class="more__link" aria-label="company-link">http://floctoryblablabla/#########</a>
+      <a class="morer__link-rules" href="#" aria-label="promotion-rules">Правила акции</a>
+      <a class="more__link-agreement" href="#" aria-label="agreement-link">Пользовательское соглашение</a>
+    </div>
+  </form>
+</main>
+</body>
 </html>
