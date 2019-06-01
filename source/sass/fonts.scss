@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: "ALSSchlangesans";
+  src: local("ALSSchlangesans"),
+    url("../fonts/ALSSchlangesans-Black.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: local("MyriadPro"),
+    url("../fonts/MyriadPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rotondac";
+  src: local("Rotondac"),
+    url("../fonts/rotondac-bold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rotondac";
+  src: local("Rotondac"),
+    url("../fonts/rotondac.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
+}

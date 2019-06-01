@@ -1,0 +1,100 @@
+.page-main__wrapper {
+  position: relative;
+  border-radius: 17px 17px 0 0;
+  background-color: $blue;
+}
+
+.page-main__info {
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  width: 250px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.page-main__order {
+  color: $yellow;
+}
+
+.page-main__toggle {
+  position: absolute;
+  top: 9px;
+  right: 16px;
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    width: 13px;
+    height: 1px;
+    background-color: white;
+  }
+}
+
+.page-main__toggle::before {
+  transform: rotate(45deg);
+}
+
+.page-main__toggle::after {
+  transform: rotate(-45deg);
+}
+
+.page-main__offer {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+}
+
+.page-main__customer {
+  margin: 29px 24px 25px 0;
+  padding-left: 18px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  font-family: "ALS Schlange sans";
+  color: $blue;
+}
+
+.page-main__discount {
+  padding: 10px 20px 5px 23px;
+  margin: 15px 0 10px 0;
+  border-radius: 10px 0 0 10px;
+  flex: 0 0 95px;
+  align-self: baseline;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: "ALS Schlange sans";
+  color: $yellow;
+  background-color: $blue;
+}
+
+.page-main_promo {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.page-main__social {
+  @include reset-list;
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

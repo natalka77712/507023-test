@@ -1,0 +1,29 @@
+.social__link {
+  display: block;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+
+  &--odk {
+    background-image: url("../img/odk-icon.png");
+    border: 3px solid $orange;
+  }
+
+  &--fb {
+    background-image: url("../img/fb-icon.png");
+    border: 3px solid $violet;
+  }
+
+  &--tw {
+    background-image: url("../img/tw-icon.png");
+    border: 3px solid $light-blue;
+  }
+
+  &--vk {
+    background-image: url("../img/vk-icon.png");
+    border: 3px solid $ultramarine;
+  }
+}

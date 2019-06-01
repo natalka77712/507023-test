@@ -2,50 +2,60 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Тестовое задание Flocktory</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<main class="page-main">
-  <form class="form" method="post" action="https://echo.htmlacademy.ru">
-    <h1 class="form__title">Ваш заказ <span>№1890998</span> принят и находится в обработке</h1>
-    <button type="button" class="form__toggle" aria-label="Открыть меню"></button>
-    <h2 class="form__customer">Михаил Иванович!</h2>
-    <span class="form__discount">10%</span>
-    <p class="form_promo">подарите друзьям скидку в «CompanyName» и получите скидку в подарок, за каждого друга</p>
-    <ul class="form__social social">
-      <li class="social__item">
-        <a class="social__link social__link--odn" href="#" aria-label="odnoklassniki">
-          <svg></svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link--fb" href="#" aria-label="facebook">
-          <svg></svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link --tw" href="#" aria-label="twitter">
-          <svg></svg>
-        </a>
-      </li>
-      <li class="social__item ">
-        <a class="social__link social__link--vk" href="#" aria-label="vkontakte">
-          <svg></svg>
-        </a>
-      </li>
-    </ul>
-    <textarea class="form__textarea" name="e-mail" placeholder="E-mail друзей"></textarea>
-    <textarea class="form__textarea-second" name="assortment" placeholder="Хороший ассортимент и цены в %site_name%. Только что после покупки подарили скидку
-    %friend_reward% для моих друзей!Времени мало, Вперёд!"></textarea>
-    <button class="form__btn-submit btn" type="submit">Отправить</button>
-    <div class="form__more">
-      <a href="#" class="more__link" aria-label="company-link">http://floctoryblablabla/#########</a>
-      <a class="morer__link-rules" href="#" aria-label="promotion-rules">Правила акции</a>
-      <a class="more__link-agreement" href="#" aria-label="agreement-link">Пользовательское соглашение</a>
+<main>
+  <div class="page-main">
+    <div class="page-main__wrapper container">
+      <p class="page-main__info">Ваш заказ №<span class="page-main__order">1890998</span> принят и находится в обработке</p>
+      <button type="button" class="page-main__toggle" aria-label="Закрыть меню"></button>
     </div>
-  </form>
+    <div class="page-main__offer">
+      <strong class="page-main__customer">Михаил Иванович!</strong>
+      <span class="page-main__discount">10%</span>
+    </div>
+    <div class="page-main__box container">
+      <p class="page-main_promo">подарите друзьям скидку в&nbsp;«CompanyName» и получите скидку в&nbsp;подарок, за каждого друга</p>
+      <ul class="page-main__social social">
+        <li class="social__item">
+          <a class="social__link social__link--odk" href="#" aria-label="odnoklassniki">
+            <svg></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#" aria-label="facebook">
+            <svg></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--tw" href="#" aria-label="twitter">
+            <svg></svg>
+          </a>
+        </li>
+        <li class="social__item ">
+          <a class="social__link social__link--vk" href="#" aria-label="vkontakte">
+            <svg></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <form class="form" method="post">
+      <div class="form__wrapper container">
+        <input class="form__email text-form" name="email-user" id="email" placeholder="E-mail друзей" required>
+        <textarea class="form__textarea text-form" name="assortment" placeholder="Хороший ассортимент и цены в&nbsp;%site_name%. Только что после покупки подарили скидку %friend_reward% для моих друзей!&#13;&#10;&#13;&#10;Времени мало, Вперёд!"></textarea>
+        <button class="form__btn-submit btn" type="submit">Отправить</button>
+      </div>
+      <div class="form__more more container">
+        <a href="#" class="more__link" aria-label="company-link">http://floctoryblablabla/#########</a>
+        <a class="morer__link-rules" href="#" aria-label="promotion-rules">Правила акции</a>
+        <a class="more__link-agreement" href="#" aria-label="agreement-link">Пользовательское соглашение</a>
+      </div>
+    </form>
+  </div>
 </main>
 </body>
 </html>

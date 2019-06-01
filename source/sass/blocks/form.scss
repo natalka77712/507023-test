@@ -1,0 +1,41 @@
+.form__email {
+  padding: 5px 12px;
+  margin-bottom: 12px;
+}
+
+.form__textarea {
+  margin-bottom: 15px;
+  padding-top: 12px;
+  padding-left: 12px;
+  height: 150px;
+}
+
+.form__btn-submit {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding: 14px 10px;
+  margin-bottom: 17px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: $blue;
+  border-radius: 23px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.form__more {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 17px;
+  border-radius: 0 0 17px 17px;
+  background-color: $blue;
+}
